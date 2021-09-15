@@ -18,5 +18,10 @@ namespace TembisaHospitalSystem
         {
 
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
