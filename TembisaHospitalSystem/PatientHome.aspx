@@ -166,7 +166,7 @@
 </head>
 <body>
     <form id="form2" runat="server">
-        <table style="width:100%;">
+        &nbsp;<table style="width:100%;">
             <tr>
                 <td class="auto-style3">
                     <asp:Label ID="Label1" runat="server" Text="Date and time"></asp:Label>
@@ -282,7 +282,7 @@
                     <br />
                 </td>
                 <td class="auto-style9">
-                    <asp:Button ID="Button4" runat="server" Text="Enquiries" />
+                    <asp:Button ID="Button4" runat="server" Text="Enquiries" OnClick="Button4_Click" />
                     <br />
                 </td>
                 <td class="auto-style5">
