@@ -35,31 +35,37 @@
         .auto-style9 {
             height: 23px;
             text-align: center;
+            width: 287px;
         }
         .auto-style11 {
             height: 23px;
             text-align: right;
-            width: 346px;
+            width: 337px;
         }
         .auto-style12 {
             width: 416px;
             font-size: xx-large;
         }
-        .auto-style13 {
-            width: 346px;
-            text-align: right;
-        }
         .auto-style14 {
-            width: 346px;
+            width: 337px;
             text-align: right;
             height: 49px;
         }
         .auto-style15 {
             text-align: center;
             height: 49px;
+            width: 287px;
         }
         .auto-style16 {
             height: 49px;
+        }
+        .auto-style17 {
+            width: 337px;
+            text-align: right;
+        }
+        .auto-style18 {
+            text-align: center;
+            width: 287px;
         }
     </style>
 </head>
@@ -95,7 +101,8 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:ListBox ID="ListBox1" runat="server" Height="278px" Width="660px"></asp:ListBox>
+                        <asp:GridView ID="GridView1" runat="server" Height="129px" Width="870px">
+                        </asp:GridView>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -114,7 +121,7 @@
         <table style="width:100%;">
             <tr>
                 <td class="auto-style11">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Select Patient" />
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Select Patient" Width="142px" />
                 </td>
                 <td class="auto-style9">
                     <asp:Button ID="Button2" runat="server" Text="Add New Patient" />
@@ -126,19 +133,20 @@
             <tr>
                 <td class="auto-style14">
                     <br />
-                    <asp:Button ID="Button4" runat="server" Text="Back" />
+                    <asp:Button ID="Button4" runat="server" Text="Back" OnClick="Button4_Click" />
                 </td>
                 <td class="auto-style15">
                     <br />
+                    <asp:Button ID="ernquiriesBtn" runat="server" Text="Enquiries" />
                 </td>
                 <td class="auto-style16">
                     <br />
-                    <asp:Button ID="Button6" runat="server" Text="Logout" />
+                    <asp:Button ID="logout" runat="server" Text="Logout" OnClick="Button6_Click" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style13">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style17">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
         </table>

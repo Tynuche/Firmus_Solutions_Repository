@@ -286,7 +286,7 @@
                     <br />
                 </td>
                 <td class="auto-style5">
-                    <asp:Button ID="Button3" runat="server" Text="Back" />
+                    <asp:Button ID="Button3" runat="server" Text="Back" OnClick="Button3_Click" />
                     <br />
                 </td>
             </tr>

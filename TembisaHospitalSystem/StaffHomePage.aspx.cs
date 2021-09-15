@@ -18,12 +18,22 @@ namespace TembisaHospitalSystem
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("");
         }
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
             Response.Redirect("PatientDetailsStaffView.aspx");
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("login.aspx");
         }
     }
 }

@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddPatient.aspx" />
+    <Content Include="App_Data\staffLogins.mdf" />
+    <Content Include="App_Data\staffLogins_log.ldf">
+      <DependentUpon>staffLogins.mdf</DependentUpon>
+    </Content>
     <Content Include="DoctorsNotes.aspx" />
     <Content Include="login.aspx" />
     <Content Include="nurseNotes.aspx" />
