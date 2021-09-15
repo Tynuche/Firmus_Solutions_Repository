@@ -90,7 +90,7 @@
                     <td class="auto-style8">
                         <br />
                         <br />
-                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="searchTxtBx" runat="server" OnTextChanged="searchTxtBx_TextChanged"></asp:TextBox>
                         <br />
                         <br />
                     </td>
@@ -121,7 +121,7 @@
         <table style="width:100%;">
             <tr>
                 <td class="auto-style11">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Select Patient" Width="142px" />
+                    <asp:Button ID="searthcBtn" runat="server" OnClick="Button1_Click1" Text="Select Patient" Width="142px" />
                 </td>
                 <td class="auto-style9">
                     <asp:Button ID="Button2" runat="server" Text="Add New Patient" />
